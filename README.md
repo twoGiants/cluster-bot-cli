@@ -31,7 +31,12 @@ export CLUSTER_BOT_SLACK_WORKSPACE="your-workspace.slack.com"
 export CLUSTER_BOT_KNOWN_BOT_USER="UXXXXXXXXXX"
 ```
 
-To find the bot user ID, search for the bot in Slack, click its profile, and copy the Member ID.
+**Finding the workspace hostname:** Open Slack in your browser. The URL
+will be `https://your-workspace.slack.com/` -- use the hostname part.
+
+**Finding the bot user ID:** Open the bot's DM channel in Slack,
+right-click the bot name, select "App details" > "View app details".
+The Member ID is shown there (starts with `U`).
 
 ### 4. (Optional) Symlink to PATH
 
